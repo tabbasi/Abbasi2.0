@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			  android:orientation="vertical"
+			  android:layout_width="match_parent"
+			  android:layout_height="match_parent"
+			  android:background="@drawable/background"
+		>
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				  android:orientation="horizontal"
+				  android:layout_width="match_parent"
+				  android:layout_height="wrap_content">
+		<Button android:id="@+id/btn6Player2"
+				android:layout_width="80dp"
+				android:layout_height="80dp"
+				android:text="@string/btnSeed6"
+				android:textAlignment="center"
+				android:background="@drawable/bluebowl"
+				android:layout_weight="1"
+				/>
+		<Button android:id="@+id/btn5Player2"
+				android:layout_width="80dp"
+				android:layout_height="80dp"
+				android:text="@string/btnSeed5"
+				android:textAlignment="center"
+				android:background="@drawable/bluebowl"
+				android:layout_weight="1"
+				/>
+		<Button android:id="@+id/btn4Player2"
+				android:layout_width="80dp"
+				android:layout_height="80dp"
+				android:text="@string/btnSeed4"
+				android:textAlignment="center"
+				android:background="@drawable/bluebowl"
+				android:layout_weight="1"
+				/>
+		<Button android:id="@+id/btn3Player2"
+				android:layout_width="80dp"
+				android:layout_height="80dp"
+				android:text="@string/btnSeed3"
+				android:textAlignment="center"
+				android:background="@drawable/bluebowl"
+				android:layout_weight="1"
+				/>
+		<Button android:id="@+id/btn2Player2"
+				android:layout_width="80dp"
+				android:layout_height="80dp"
+				android:text="@string/btnSeed2"
+				android:textAlignment="center"
+				android:background="@drawable/bluebowl"
+				android:layout_weight="1"
+				/>
+		<Button android:id="@+id/btn1Player2"
+				android:layout_width="80dp"
+				android:layout_height="80dp"
+				android:text="@string/btnSeed1"
+				android:textAlignment="center"
+				android:background="@drawable/bluebowl"
+				android:layout_weight="1"
+				/>
+	</LinearLayout>
+	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+					android:orientation="horizontal"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content">
+		<Button android:id="@+id/trayPlayer1"
+				android:layout_width="80dp"
+				android:layout_height="80dp"
+				android:text="@string/btnTray2"
+				android:textAlignment="center"
+				android:layout_alignParentRight="true"
+				android:background="@drawable/pinktray"
+
+				/>
+		<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+						android:orientation="horizontal"
+						android:layout_width="400dp"
+						android:layout_height="wrap_content"
+						android:layout_centerHorizontal="true"
+						android:layout_centerVertical="true"
+				>
+			<TextView
+					android:id="@+id/textPlayer2"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/txtPlayer2"
+					android:layout_alignParentRight="true"
+					android:layout_centerVertical="true"
+					android:textSize="20dp"
+					/>
+			<TextView
+					android:id="@+id/textPlayer1"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/text"
+					android:layout_alignParentLeft="true"
+					android:layout_centerVertical="true"
+					android:textSize="20dp"
+					/>
+
+	    </RelativeLayout>
+
+
+		<Button android:id="@+id/trayPlayer2"
+				android:layout_width="80dp"
+				android:layout_height="80dp"
+				android:text="@string/btnTray1"
+				android:textAlignment="center"
+				android:layout_alignParentLeft="true"
+				android:background="@drawable/bluetray"
+				/>
+	</RelativeLayout>
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				  android:orientation="horizontal"
+				  android:layout_width="match_parent"
+				  android:layout_height="wrap_content">
+
+		<Button android:id="@+id/btn1Player1"
+				android:layout_width="80dp"
+				android:layout_height="80dp"
+				android:text="@string/btnSeed1"
+				android:textAlignment="center"
+				android:background="@drawable/pinkbowl"
+				android:layout_weight="1"
+				/>
+		<Button android:id="@+id/btn2Player1"
+				android:layout_width="80dp"
+				android:layout_height="80dp"
+				android:text="@string/btnSeed2"
+				android:textAlignment="center"
+				android:background="@drawable/pinkbowl"
+				android:layout_weight="1"
+				/>
+		<Button android:id="@+id/btn3Player1"
+				android:layout_width="80dp"
+				android:layout_height="80dp"
+				android:text="@string/btnSeed3"
+				android:textAlignment="center"
+				android:background="@drawable/pinkbowl"
+				android:layout_weight="1"
+				/>
+		<Button android:id="@+id/btn4Player1"
+				android:layout_width="80dp"
+				android:layout_height="80dp"
+				android:text="@string/btnSeed4"
+				android:textAlignment="center"
+				android:background="@drawable/pinkbowl"
+				android:layout_weight="1"
+				/>
+		<Button android:id="@+id/btn5Player1"
+				android:layout_width="80dp"
+				android:layout_height="80dp"
+				android:text="@string/btnSeed5"
+				android:textAlignment="center"
+				android:background="@drawable/pinkbowl"
+				android:layout_weight="1"
+				/>
+		<Button android:id="@+id/btn6Player1"
+				android:layout_width="80dp"
+				android:layout_height="80dp"
+				android:text="@string/btnSeed6"
+				android:textAlignment="center"
+				android:background="@drawable/pinkbowl"
+				android:layout_weight="1"
+				/>
+	</LinearLayout>
+	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+					android:orientation="horizontal"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content">
+		<Button android:id="@+id/btnBackPlayGame"
+				android:layout_width="80dp"
+				android:layout_height="80dp"
+				android:text="@string/btnBack"
+				android:textAlignment="center"
+				android:layout_alignParentRight="true"
+				/>
+	</RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">A Board Game</string>
+    <string name="buttonText">1</string>
+    <string name="btnPlanGame">PlayGame</string>
+    <string name="settingDisplay">Settings</string>
+    <string name="btnhelp">Help</string>
+    <string name="btnExit">Exit</string>
+    <string name="chkMusic">Music</string>
+    <string name="chksound">Sound</string>
+    <string name="btnBack">Back</string>
+	<string name="btnSeed1">3</string>
+	<string name="btnSeed2">3</string>
+	<string name="btnSeed3">3</string>
+	<string name="btnSeed4">3</string>
+	<string name="btnSeed5">3</string>
+	<string name="btnSeed6">3</string>
+	<string name="btnTray1">0</string>
+	<string name="btnTray2">0</string>
+	<string name="textHelpContents">Game Initial Rules :\n This is two player Game .Every Player will play Game on his turn .Each player has 6 bowls and one Tray .Start of game each player bowls have three seeds and each player tray is empty .Right side tray shall belong to player 1 and left side tray belong to player 2 .Top side player is Player 2 while bottom side player is player 1Game shall start counter clockwise . \n
+		Game Moves Rules:\n
+		Eeach player will play game on his turn . During turn player takes all seeds from his bowl and drop one by one (counter clockwise) to his own bowls and tray util seeds finish.If a players last seed drop on his own tray the he will have chance to Play again (Move Again )If Player last seed drops in its own empty bowl then he will move all seeds in front bowl of  opponent player (bowl) and put them in his tray . \n
+		Winning Rules :\n
+		The game ends when when all  bowls in one player side are empty .  The remaining seeds will moved to other player tray .
+		Winning player is having most seeds on his tray .
+
+		  </string>
+	<string name="chkvibrate">Vibrations</string>
+	<string name="btnGameStats">Statistics</string>
+	<string name="btnShowHighScores">High Scores</string>
+	<string name="highScoreTitle">High Score List</string>
+	<string name="text">Player 1</string>
+	<string name="txtPlayer2">Player 2</string>
+	<string name="btnTotalGamesPlayed">Total Games Played</string>
+	<string name="totalGamesPlayedTitleLable">Total Games Played:</string>
+	<string name="totalGamesPlayed">Total Games Played</string>
+	<string name="totalGamesTied">Total Games Tied</string>
+	<string name="totalGamesTiedleLable">Total Games Tied:</string>
+	<string name="btnHighscorePlayer">High Score Player</string>
+	<string name="TotalGamesTied"/>
+	<string name="TotalTiedGames"/>
+	<string name="HighScorePlayer"/>
+
+
+</resources>
